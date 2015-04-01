@@ -1,0 +1,14 @@
+prepare
+--------
+
+* jdk >= 1.7
+* Android SDK(通过SDK Manager安装)
+* Android Studio(IDE，可选，推荐)
+* Gradle(构建工具，必用，会自动下载，可以不安装)
+* 版本管理工具(如：Git、SVN)
+
+教程
+--------
+
+* 官网：http://developer.android.com/training/index.html
+* 第三方翻译：http://hukai.me/android-training-course-in-chinese/
