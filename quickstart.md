@@ -5,6 +5,7 @@
 * Android Studio(IDE，可选，推荐)
 * Gradle(构建工具，必用，会自动下载，可以不安装)
 * 版本管理工具(如：Git、SVN)
+* 用于测试的Android手机和手机驱动程序（可选，推荐）
 
 #教程
 
@@ -50,9 +51,12 @@ res目录等资源
 * stopped（内存中保持状态和成员信息）
 * frozen state（系统资源不足时）
 
+[Demo程序][Activity Lifecycle Demo]
+
 ##[Saving activity state][Saving activity state]
 Activity的默认onSaveInstanceState()实现，自动调用布局中每个View的onSaveInstanceState()。但要保存状态信息的View要有ID（android:id熟悉）。如果没有ID，系统无法保存它的状态。
 
 [App Components]:http://developer.android.com/guide/components/fundamentals.html#Components
 [Activity Lifecycle]:http://developer.android.com/reference/android/app/Activity.html#ActivityLifecycle
+[Activity Lifecycle Demo]:http://developer.android.com/training/basics/activity-lifecycle/index.html
 [Saving activity state]:http://developer.android.com/guide/components/activities.html#SavingActivityState
